@@ -1,0 +1,9 @@
+.titulo-1{
+    font-size: 100px;
+    color: blueviolet;
+    background: linear-gradient(90deg, #ffb6f9, #ff4da6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* texto com degradê */
+    text-shadow: 2px 2px 8px rgba(255, 0, 128, 0.3); /* brilho suave */
+    text-align: center;
+}
