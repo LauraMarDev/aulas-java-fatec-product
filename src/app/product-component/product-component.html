@@ -3,13 +3,6 @@
   <div class="display-4 text-center mt-3">Cadastro de Produto</div>
 
   <form [formGroup]="formGroupProduct">
-
-    <div class="mb-3">
-      <label for="inputId" class="form-label">Id</label>
-      <input formControlName="id" type="text" class="form-control" id="inputId" aria-describedby="IdHelp">
-      <div id="IdHelp" class="form-text">Insira o código do produto.</div>
-    </div>
-
     <div class="mb-3">
       <label for="inputName" class="form-label">Nome</label>
       <input formControlName="name" type="text" class="form-control" id="inputName" aria-describedby="NameHelp">
@@ -49,10 +42,6 @@
         <td>{{p.description}}</td>
         <td>{{p.price}}</td>
       </tr>
-
-
     </tbody>
   </table>
-
-
 </div>
